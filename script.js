@@ -52,7 +52,7 @@ searchBtn.addEventListener('click', (e) => {
     const data = getWeatherData(city);
 
     if (city !== data.name || city == "") {
-        alert('Digite o nome de uma cidade existente!');
+        console.log('Digite o nome de uma cidade existente!');
     }
 
 
@@ -69,7 +69,7 @@ document.addEventListener('keydown', (e) => {
         const data = getWeatherData(city);
 
         if (city !== data.name || city == "") {
-            alert('Digite o nome de uma cidade existente!');
+            console.log('Digite o nome de uma cidade existente!');
         }
     
         showWeatherData(city);
