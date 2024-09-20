@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.init {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+input {
+    border-radius: 10px;
+    background-color: white;
+    color: gray;
+    border-color: none;
+    padding: 12px;
+    font-size: 20px;
+}
+
+#search {
+    background-color: aqua;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#line {
+    width: 350px;
+    border-top: 1px solid white;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+#loc-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+
+#city {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#country {
+    position: relative;
+    bottom: 3px;
+}
+
+#temperature {
+    font-size: 50px;
+}
+
+#description-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#weather-icon {
+    position: relative;
+    bottom: 3px;
+}
+
+#details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#humidity {
+    padding: 10px;
+}
+
+#wind {
+    padding: 10px;
+}
+
+#description {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.linee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 3px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}
