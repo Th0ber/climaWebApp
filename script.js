@@ -1,9 +1,3 @@
-// Quando puder: corrigir o bug das condicionais.
-
-
-// Chave de acesso as api's
-// 3d84088d030661ace08a2f3700af2b42
-
 // Váriaveis e Seleção de Elementos
 
 const apiKey = '3d84088d030661ace08a2f3700af2b42';
